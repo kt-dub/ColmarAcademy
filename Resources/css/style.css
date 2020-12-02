@@ -93,8 +93,31 @@ header {
     flex-direction: column;
     margin: 32px 24px;
     width: 40%;
+    justify-content: space-between;
 }
-.information {
+.box {
     display: flex;
-
+    border: 2px solid #000000;
+    width: 100%;
+    padding: 8px 8px;
+    align-items: center;
+    height: auto;
 }
+.box img {
+    width: 35%;
+}
+
+.box--info {
+    margin: 8px 8px;
+    width: 65%;
+    align-items: center;
+    padding-left: 10px;
+}
+h2 {
+    font-size: 18px;
+}
+p {
+    font-size: 15px;
+}
+
+/* */
