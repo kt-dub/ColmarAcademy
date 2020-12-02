@@ -30,7 +30,7 @@ header {
     margin-left: 600px;
 }
 
-/* container--one section */
+/* container--banner section */
 .container {
     margin: 0 auto;
 }
@@ -66,4 +66,4 @@ header {
     transition-duration: 220ms;
 }
 
-/* */
+/* container--two section */
