@@ -2,7 +2,7 @@
 
 /* NAVIGATION BAR */
 header {
-    display: flex;
+    display: inline-flex;
     height: 64px;
     min-width: 100%;
     align-items: center;
@@ -66,4 +66,35 @@ header {
     transition-duration: 220ms;
 }
 
-/* container--two section */
+/* container--one&two section */
+.container--second {
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+.container--one {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px;
+}
+.banner--two {
+    width: 100%;
+    margin-bottom: 32px;
+}
+.practice {
+    margin-bottom: 24px;
+}
+
+.container--two {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 24px;
+    width: 40%;
+}
+.information {
+    display: flex;
+
+}
