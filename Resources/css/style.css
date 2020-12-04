@@ -31,14 +31,15 @@ strong {
     font-weight: 575;
 }
 
+.navigation {
+    margin-right: 24px;
+}
+nav span {
+    margin-right: 16px;
+}
 .navigation a {
     text-decoration: none;
     color: black;
-    margin-left: 16px;
-}
-.navigation {
-    display: flex;
-    margin-left: 600px;
 }
 
 /* container--banner section */
