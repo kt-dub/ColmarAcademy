@@ -1,5 +1,9 @@
-/* add body */
-
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+    background-color: #f1f2f5;
+}
 /* NAVIGATION BAR */
 header {
     display: flex;
@@ -7,7 +11,7 @@ header {
     min-width: 100%;
     align-items: center;
     position: relative;
-    background-color: #ffffff;
+    background-color: #e6e7ed;
     box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
     position: relative;
     z-index: 1;
@@ -49,7 +53,7 @@ nav span {
 
 .mainbanner{
     display: flex;
-    background-color: #DCDCDC;
+    background-color: #f5f5f8;
     /*width: 100%;
      */
 }
