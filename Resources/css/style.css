@@ -3,15 +3,16 @@ body {
     font-size: 18px;
     color: #000000;
     background-color: #f1f2f5;
+    font-weight: 100;
 }
-/* NAVIGATION BAR */
+/* HEADER AREA */
 header {
     display: flex;
     height: 64px;
     min-width: 100%;
     align-items: center;
     position: relative;
-    background-color: #e6e7ed;
+    background-color: #f1f2f5;
     box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
     position: relative;
     z-index: 1;
@@ -22,18 +23,20 @@ header {
     align-items: center;
     flex-grow: 1;
 }
-.logo p {
-    text-transform: uppercase;
-    color: #000000;
-    font-size: 32px;
-}
 .logo img {
     height: 45px;
     width: auto;
 }
-strong {
-    font-weight: 575;
+.logo p {
+    text-transform: uppercase;
+    color: #515570;
+    font-size: 28px;
 }
+strong {
+    font-weight: 850;
+}
+
+/*NAVIGATION*/
 
 .navigation {
     margin-right: 24px;
@@ -43,10 +46,10 @@ nav span {
 }
 .navigation a {
     text-decoration: none;
-    color: black;
+    color: #515570;
 }
 
-/* container--banner section */
+/* First section */
 .container {
     margin: 0 auto;
 }
