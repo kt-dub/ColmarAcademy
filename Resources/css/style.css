@@ -12,7 +12,7 @@ header {
     min-width: 100%;
     align-items: center;
     position: relative;
-    background-color: #f1f2f5;
+    background-color: #f5f5f8;
     box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
     position: relative;
     z-index: 1;
@@ -29,7 +29,7 @@ header {
 }
 .logo p {
     text-transform: uppercase;
-    color: #515570;
+    color: #3d4054;
     font-size: 28px;
 }
 strong {
@@ -46,7 +46,7 @@ nav span {
 }
 .navigation a {
     text-decoration: none;
-    color: #515570;
+    color: #3d4054;
 }
 
 /* First section */
@@ -60,10 +60,7 @@ nav span {
     /*width: 100%;
      */
 }
-.image1 {
-    width: 60%;
-    margin: 32px 24px;
-}
+
 .mainbanner img {
     margin: 32px 24px;
     width: 60%;
