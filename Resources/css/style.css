@@ -101,5 +101,29 @@ nav span {
     transition-duration: 220ms;
 }
 
-
 /* PART TWO */
+.containertwo {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.section .information {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    width: 60%;
+}
+.section .content {
+    display: flex;
+
+}
+.information {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.main img {
+    width: 60%;
+
+}
