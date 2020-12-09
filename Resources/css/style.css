@@ -49,23 +49,19 @@ nav span {
     color: #3d4054;
 }
 
-/* First section */
+/* FIRST PART */
 .container {
     margin: 0 auto;
 }
-
 .mainbanner{
     display: flex;
-    background-color: #f5f5f8;
-    /*width: 100%;
-     */
+    background-color: #E6E7ED;
+    color: #3D4054;
 }
-
 .mainbanner img {
     margin: 32px 24px;
     width: 60%;
 }
-
 .learn {
     display: flex;
     height: auto;
@@ -75,13 +71,28 @@ nav span {
     justify-content: center;
     width: 40%;
 }
+.learn h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-right: 100px;
+}
+.learn h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.banner a {
+    text-decoration: none;
+    background-color: #c8cbd8;
+    color: #000000;
+}
 .banner .btn {
     display: flex;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: lightskyblue;
     height: 60px;
-    width: 90%;
+    width: 70%;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -89,59 +100,6 @@ nav span {
     transition-property: background-color;
     transition-duration: 220ms;
 }
-/*
-/* container--one&two section 
-.container--second {
-    display: flex;
-    width: 100%;
-    background-color: lightblue;
-    margin: 0 auto;
-}
 
-.container--one {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: 32px 24px;
-}
-.banner--two {
-    width: 100%;
-    margin-bottom: 32px;
-}
-.practice {
-    margin-bottom: 24px;
-}
 
-.container--two {
-    display: flex;
-    flex-direction: column;
-    margin: 32px 24px;
-    width: 40%;
-    justify-content: space-between;
-}
-.box {
-    display: flex;
-    border: 2px solid #000000;
-    width: 100%;
-    padding: 8px 8px;
-    align-items: center;
-    height: auto;
-}
-.box img {
-    width: 35%;
-}
-
-.box--info {
-    margin: 8px 8px;
-    width: 65%;
-    align-items: center;
-    padding-left: 10px;
-}
-h2 {
-    font-size: 18px;
-}
-p {
-    font-size: 15px;
-}
-*/
-/* third section */
+/* PART TWO */
