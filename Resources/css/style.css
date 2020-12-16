@@ -101,30 +101,27 @@ nav span {
     transition-duration: 220ms;
 }
 
-
-/* PART TWO */
+/* CONTAINER ONE BANNER TWO*/
 .banner-family {
     display: flex;
-    margin: 0;
-    width: 100%;
-    background-color: #f5f5f8;
     align-items: flex-start;
+    width: 100%;
     border-bottom: 1px solid #e6e7ed;
     color: #3d4054;
+    background-color: #f5f5f8;
 }
 
 .main img {
-    margin-top: 32px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 32px 24px;
     width: 90%;
 }
 .banners.info {
     display: flex;
+    
     flex-direction: column;  
-    width: 60%;
-    border-right: 2px solid #babccd;
+    border-right: 1px solid #babccd;
 }
+
 .banners.info h2 {
     margin-top: 32px;
     margin-left: 24px;
@@ -142,17 +139,18 @@ nav span {
     margin-bottom: 32px;
 }
 
-
-
+/* right side */
 
 .banners.small {
     display: flex;
     margin-top: 32x;
     width: 40%;
+   align-content: flex-start;
 }
 section {
     display: flex;
-    
+    border-bottom: 1px solid #e9e0db;
+    margin-left: 24px;
 }
 section:last-child {
     background-color: #d7d9e2;
@@ -160,17 +158,16 @@ section:last-child {
 .info {
     display: flex;
     flex-direction: column;
-    
     width: 65%;
 }
 section img {
-    margin: 16px;
-    width: 35%;
+    margin-top: 16px;
+    width: 65%;
 }
 section h3 {
     font-size: 28px;
     font-weight: 400;
-    margin-left: 20px;
+    margin-right: 24px;
 }
 section p {
     margin-top: 8px;
@@ -222,7 +219,4 @@ section a:active {
 }
 .box img {
     height: auto;
-}
-.box h3 {
-
 }
