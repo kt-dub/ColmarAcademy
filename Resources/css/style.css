@@ -189,17 +189,20 @@ section a:active {
 
 .image1 {
     height: auto;
-    margin: 18px;
+    margin: 32px 24px1;
 }
 
 /* SECTION THREE */
 
 .containerthree {
-    margin: 32px 72px;
+    margin-bottom: 32px;
+    margin-right: 72px;
+    margin-left: 72px;
 }
 .containerthree h1 {
     text-align: center;
     color: #333046;
+    margin-top: 32px;
     margin-bottom: 32px;
     font-size: 36px;
     font-weight: 600;
@@ -214,9 +217,26 @@ section a:active {
     margin: auto;
 }
 .box {
-    margin-top: 0;
-    background-color: #FFFFFF;
+    box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
+    background-color: #F9F6F4;
+    box-sizing: content-box;
+    border: 32px;
+}
+.box h3 {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.box h5 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    text-transform: uppercase;
+}
+.box p {
+    margin-left: 16px;
+    margin-bottom: 24px;
 }
 .box img {
     height: auto;
+
 }
