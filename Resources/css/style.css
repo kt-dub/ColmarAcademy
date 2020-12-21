@@ -3,7 +3,6 @@ body {
     font-size: 18px;
     color: #000000;
     background-color: #f1f2f5;
-    font-weight: 100;
 }
 /* HEADER AREA */
 header {
@@ -55,8 +54,8 @@ nav span {
 }
 .mainbanner{
     display: flex;
-    background-color: #E6E7ED;
-    color: #3D4054;
+    background-color: #b8b8ba;
+    color: #383838;
 }
 .mainbanner img {
     margin: 32px 24px;
@@ -84,8 +83,8 @@ nav span {
 }
 .banner a {
     text-decoration: none;
-    background-color: #c8cbd8;
-    color: #000000;
+    background-color: #777778;
+    color: #dcdcde;
 }
 .banner .btn {
     display: flex;
@@ -106,8 +105,7 @@ nav span {
     display: flex;
     align-items: flex-start;
     width: 100%;
-    border-bottom: 1px solid #e6e7ed;
-    color: #3d4054;
+    border-bottom: 1px solid #d7d9e2;
     background-color: #f5f5f8;
 }
 
@@ -123,20 +121,24 @@ nav span {
 }
 
 .banners.info h2 {
+    color: #383838;
     margin-top: 32px;
     margin-left: 24px;
     font-size: 32px;
     font-weight: 600;
-    letter-spacing: -1px;
+    letter-spacing: .5px;
 }
 .banners.info p {
     margin-left: 24px;
-    font-size: 18px;
+    font-size: 20px;
+    color: #3D4054;
+    font-weight: 400;
 }
 .banners.info h5 {
     font-size: 16px;
     margin-left: 24px;
     margin-bottom: 32px;
+    color: #383838;
 }
 
 /* right side */
@@ -145,11 +147,11 @@ nav span {
     display: flex;
     margin-top: 32x;
     width: 40%;
-   align-content: flex-start;
+    align-content: flex-start;
 }
 section {
     display: flex;
-    border-bottom: 1px solid #e9e0db;
+    border-bottom: 1px solid #d7d9e2;
     margin-left: 24px;
 }
 section:last-child {
@@ -165,17 +167,19 @@ section img {
     width: 65%;
 }
 section h3 {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 400;
     margin-right: 24px;
+    color: #383838;
 }
 section p {
     margin-top: 8px;
     font-size: 18px;
-    
+    color: #3d4054;
 }
 section a {
     text-decoration: none;
+    color: darkblue;
     font-weight: 500px;
     transition-property: color;
     transition-duration: 150ms;
@@ -195,14 +199,17 @@ section a:active {
 /* SECTION THREE */
 
 .containerthree {
+    margin-top: 0;
     margin-bottom: 32px;
     margin-right: 72px;
     margin-left: 72px;
+    background-color: #dcdcde;
+    width: 100%;
 }
 .containerthree h1 {
     text-align: center;
-    color: #333046;
-    margin-top: 32px;
+    color: #383838;
+    padding-top: 32px;
     margin-bottom: 32px;
     font-size: 36px;
     font-weight: 600;
@@ -227,17 +234,27 @@ section a:active {
 .box h3 {
     margin-top: 16px;
     margin-left: 16px;
+    color: #383838;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 .box h5 {
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 16px;
     text-transform: uppercase;
+    color: #383838;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 .box p {
     margin-left: 16px;
     margin-bottom: 24px;
     width: 400px;
+    color: #3D4054;
+    font-size: 18px;
+    letter-spacing: -0.5px;
 }
 .box img {
     height: auto;
@@ -252,9 +269,14 @@ section a:active {
     margin-top: 32px;
     margin-bottom: 32px;
 }
+.containerthesis {
+    border-top: 2px solid #d7d9e2;
+    background-color: #f5f5f8;
+}
 .containerfour {
     display: flex;
     margin: 0 auto;
+    background-color: #f5f5f8;
 }
 
 video {
@@ -279,11 +301,17 @@ video {
 #vid h3 {
     margin-right: 34px;
     margin-left: 15px;
+    color: #383838;
+    font-size: 22px;
+    font-weight: 400;
 }
 #vid p {
     margin-top: 1.3rem;
     margin-right: 34px;
     margin-left: 20px;
+    color: #3D4054;
+    font-size: 20px;
+    letter-spacing: .5px;
 }
 
 #vid2 {
@@ -292,11 +320,17 @@ video {
 #vid2 h3 {
     margin-right: 34px;
     margin-left: 15px;
+    color: #383838;
+    font-size: 22px;
+    font-weight: 400;
 }
 #vid2 p {
     margin-top: 1.3rem;
     margin-right: 34px;
     margin-left: 20px;
+    color: #3D4054;
+    font-size: 20px;
+    letter-spacing: .5px;
 }
 
 /* FOOTER */
@@ -312,12 +346,13 @@ footer {
     margin-left: 24px;
     align-items: center;
     flex-grow: 1;
+    background-color: #f5f5f8;
+    color: #383838;
 }
 .footernav a {
     text-decoration: none;
     transition-property: color;
     transition-duration: 150ms;
-    color: #000000;
 }
 .footernav a:hover {
     color: #4996B2;
