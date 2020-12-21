@@ -235,8 +235,19 @@ section a:active {
 .box p {
     margin-left: 16px;
     margin-bottom: 24px;
+    width: 450px;
 }
 .box img {
     height: auto;
 
+}
+
+
+
+/* CONTAINER FOUR */
+video {
+    margin-top: 32px;
+    width: 94%;
+    height: auto;
+    margin-left: 34px;
 }
