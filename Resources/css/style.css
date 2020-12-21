@@ -215,12 +215,14 @@ section a:active {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
+    align-content: flex-start;
 }
 .box {
     box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
     background-color: #F9F6F4;
     box-sizing: content-box;
     border: 32px;
+    margin-bottom: 20px;
 }
 .box h3 {
     margin-top: 16px;
@@ -235,19 +237,64 @@ section a:active {
 .box p {
     margin-left: 16px;
     margin-bottom: 24px;
-    width: 450px;
+    width: 400px;
 }
 .box img {
     height: auto;
-
+    width: 400px;
 }
 
 
 
 /* CONTAINER FOUR */
+.containerthesis h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.containerfour {
+    display: flex;
+    margin: 0 auto;
+}
+
 video {
     margin-top: 32px;
-    width: 94%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 85%;
     height: auto;
-    margin-left: 34px;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+#vid {
+    display: flex;
+    background-color: #E9E0DB;
+}
+#vid h3 {
+    margin-right: 34px;
+    margin-left: 15px;
+}
+#vid p {
+    margin-top: 1.3rem;
+    margin-right: 34px;
+    margin-left: 20px;
+}
+
+#vid2 {
+    display: flex;
+}
+#vid2 h3 {
+    margin-right: 34px;
+    margin-left: 15px;
+}
+#vid2 p {
+    margin-top: 1.3rem;
+    margin-right: 34px;
+    margin-left: 20px;
 }
