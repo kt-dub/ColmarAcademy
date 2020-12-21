@@ -298,3 +298,30 @@ video {
     margin-right: 34px;
     margin-left: 20px;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    background-color: #F9F6F4;
+    border-top: 2px solid #E9E0DB;
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+.footer {
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+    flex-grow: 1;
+}
+.footernav a {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 150ms;
+    color: #000000;
+}
+.footernav a:hover {
+    color: #4996B2;
+}
+.footernav a:active {
+    color: #39768C;
+}
