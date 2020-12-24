@@ -46,6 +46,18 @@ nav span {
 .navigation a {
     text-decoration: none;
     color: #3d4054;
+    transition-property: color;
+    transition-duration: 150ms;
+}
+.navigation a:hover {
+    color: #4996B2;
+}
+.navigation a:active {
+    color: #39768c;
+}
+/* mobile */
+nav.mobile {
+    display: none;
 }
 
 /* CONTAINER ONE */
@@ -98,6 +110,12 @@ nav span {
     box-shadow: 0px 3px 5px 0px rgba(158, 158, 158, 0.57);
     transition-property: background-color;
     transition-duration: 220ms;
+}
+.banner .btn:hover {
+    background-color: #636781;
+}
+.banner .btn:active {
+    background-color: #5a5d6b;
 }
 
 /* CONTAINER ONE BANNER TWO*/
@@ -359,4 +377,94 @@ footer {
 }
 .footernav a:active {
     color: #39768C;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 64px;
+        width: 100%
+    }
+    .logo img {
+        height: 40px;
+        width: 40%;
+        margin-left: 10px;
+    }
+    nav.desktop {
+        display: none;
+    }
+    .logo p {
+        display: none;
+    }
+    nav.mobile {
+        display: block;
+        text-align: center;
+        margin-right: -35px;
+    }
+    nav.mobile img {
+        margin-right: 45px;
+    }
+    .navigation {
+        display: flex;
+    }
+
+
+    .mainbanner {
+        background-color: #e9e0db;
+        display: block;
+        padding-bottom: 52px;
+    }
+    .mainbanner img {
+        width: 100%;
+        min-height: 350px;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner {
+        margin-bottom: 32px;
+    }
+    .main img {
+        display: none;
+    }
+    .banners.info h2 {
+        display: none;
+    }
+    .banners.info p {
+        display: none;
+    }
+    .banners.info h5 {
+        display: none;
+    }
+    .learn {
+        height: auto;
+        width: 460px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .learn h1 {
+        margin-top: 32px;
+    }
+    .learn h3{
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    .banners.small {
+        display: flex;
+    }
+    section img {
+        display: none;
+    }
+    .image1.ori {
+        background-image:url('../images/information-orientation-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 250px;
+        width: 60%;
+        margin-right: 24px;
+    }
+
+
+
 }
